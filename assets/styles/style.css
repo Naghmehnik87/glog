@@ -61,12 +61,38 @@ body{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: var(--text);
   background: 
-  radial-gradient(circle at top left, rgb(222, 146, 245) 0%, transparent 35%),
-  radial-gradient(circle at top left, rgb(60, 25, 70) 0%, transparent 30%),
-  linear-gradient(135deg, rgb(86, 63, 86), rgb(151, 65, 151), rgb(236, 7, 236), rgb(224, 150, 224));
+  radial-gradient(circle at top left, rgb(107, 100, 163) 0%, transparent 35%),
+  radial-gradient(circle at top left, rgb(141, 153, 198) 0%, transparent 30%),
+  linear-gradient(135deg, rgb(72, 63, 116), rgb(98, 95, 169), rgb(15, 13, 55), rgb(224, 150, 224));
 min-height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
 padding: 40px;
+}
+/* wrapper */
+.wrapper{
+  width: min(1400px, 100%);
+  height: 780px;
+  display: grid;
+  grid-template-columns: 480px 1fr;
+  overflow:hidden;
+  border-radius: var(--radius-xl);
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-lg);
+  /* backdrop-filter:blur(6px) ; should be low */
+}
+.register{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 30px;
+background-color: rgba(18, 13, 44, 0.15);
+position: relative;
+}
+.gallery{
+  display: none;  
+  /* temporary */
+
 }
