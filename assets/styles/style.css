@@ -63,7 +63,16 @@ button {
   --transition: .35s ease-in;
 
 }
-
+/* --textselection in chrom-- */
+::selection{
+  color:var(--primary-dark) ;
+  background-color:#aeaff3 ;
+}
+/* --textselection in firefox-- */
+/* ::-moz-selection{
+  color:var(--primary-dark) ;
+  background-color:#aeaff3 ;
+} */
 /* body */
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
