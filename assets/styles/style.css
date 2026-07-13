@@ -221,10 +221,10 @@ body {
   inset: 0;
 }
 
-.gallery {
+/* .gallery {
   display: none;
   /* temporary */
-}
+/* } */ 
 
 .register-btn {
   height: 60px;
@@ -315,4 +315,13 @@ body {
 
 .Login-link a:hover {
   color: var(--white);
+}
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,150px);
+  padding: 40px;
+  gap: 20px;
+  background: linear-gradient(135deg, rgba(0,0,0, .03), rgba(0,0,0, .01));
+  
 }
