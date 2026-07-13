@@ -232,29 +232,34 @@ body {
   transform: translateY(-4px);
   box-shadow: 0 15px 20px var(--shadow-lg);
 }
-.divider{
+
+.divider {
   display: flex;
   align-items: center;
   gap: 18px;
   margin: 25px 0;
 }
+
 .divider::before,
-.divider::after{
+.divider::after {
   content: "";
-  flex:1;
+  flex: 1;
   height: 1px;
-  background-color: rgb(255,255,255,.25);
+  background-color: rgb(255, 255, 255, .25);
 }
-.divider span{
+
+.divider span {
   color: var(--text-light);
   font-size: .9rem;
 }
-.socials{
+
+.socials {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 16px;
 }
-.socials button{
+
+.socials button {
   height: 55px;
   border-radius: var(--radius-md);
   display: flex;
@@ -266,18 +271,39 @@ body {
   border: 1px solid var(--border);
   transition: var(--transition);
 }
-.socials button:hover{
+
+.socials button:hover {
   transform: translateY(-4px);
   background: var(--surface-hover);
-  border-color:rgba(255, 255, 255, .2) ;
+  border-color: rgba(255, 255, 255, .2);
 }
+
 .socials button i {
   font-size: 1.15rem;
 }
-.socials button:first-child:hover{
+
+.socials button:first-child:hover {
   color: #f37266;
   #A6CE39
 }
-.socials button:last-child:hover{
-  color:#A6CE39 ;
+
+.socials button:last-child:hover {
+  color: #A6CE39;
+}
+
+.Login-link {
+  text-align: center;
+  margin-top: 40px;
+  color: var(--text-light);
+  font-size: .95rem;
+}
+
+.Login-link a {
+  color: var(--primary);
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.Login-link a:hover {
+  color: var(--white);
 }
