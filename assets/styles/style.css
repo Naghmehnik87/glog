@@ -249,3 +249,35 @@ body {
   color: var(--text-light);
   font-size: .9rem;
 }
+.socials{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.socials button{
+  height: 55px;
+  border-radius: var(--radius-md);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  color: var(--white);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  transition: var(--transition);
+}
+.socials button:hover{
+  transform: translateY(-4px);
+  background: var(--surface-hover);
+  border-color:rgba(255, 255, 255, .2) ;
+}
+.socials button i {
+  font-size: 1.15rem;
+}
+.socials button:first-child:hover{
+  color: #f37266;
+  #A6CE39
+}
+.socials button:last-child:hover{
+  color:#A6CE39 ;
+}
