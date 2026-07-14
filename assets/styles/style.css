@@ -356,3 +356,40 @@ body {
 grid-column: span 2;
 grid-row: span 3;
 }
+@media(max-width:1300px){
+  .wrapper{
+    width: 100%;
+  }
+  .register{
+    padding: 45px;
+  }
+  .gallery{
+    padding: 30px;
+  }
+}
+@media(max-width:992px){
+  .wrapper{
+    grid-template-columns: 1fr;
+    max-width: 700px;
+  }
+  .register{
+    padding: 45px;
+  }
+  .gallery{
+    padding: 30px;
+  }
+}
+@media(max-width:768px){
+  body{
+    padding: 20px;
+  }
+  .wrapper{
+    border-radius: 24px;
+  }
+  .register{
+    padding: 35px 28px;
+  }
+  .gallery{
+   display: none;
+  }
+}
